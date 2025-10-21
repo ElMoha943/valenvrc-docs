@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://ElMoha943.github.io',
+  url: 'https://docs.valenvrc.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -78,9 +78,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'ValenVRC Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ValenVRC Logo',
         src: 'img/logo.svg',
       },
       items: [
