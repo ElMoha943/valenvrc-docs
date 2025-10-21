@@ -24,7 +24,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ElMoha943', // Usually your GitHub org/user name.
   projectName: 'valenvrc-docs', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  deploymentBranch: 'deploy',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
