@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[7247],{5554:n=>{n.exports=JSON.parse('{"tags":[{"label":"Announcements","permalink":"/valenvrc-docs/blog/tags/announcements","description":"Important announcements and news","count":1}]}')}}]);

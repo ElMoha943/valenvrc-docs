@@ -1,8 +1,0 @@
-{
-  "label": "BouncerSystem",
-  "position": 7,
-  "link": {
-    "type": "generated-index",
-    "description": "A panel that allows designated users to verify/unverify people"
-  }
-}
