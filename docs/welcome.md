@@ -7,17 +7,29 @@ description: This page contain the documentation for my assets and systems. This
 This page contain the documentation for my assets and systems. This is a community mantained project.
 
 ## Common Steps
+
 To start with, here are some common steps and requirements of all my assets.
 
 ### Knowloadge Requirements
+
 Please note that the assets require a minimum understanding of Unity's editor and UI for installation and modification.
 
+My assets are distributed as **Packages** therefore they are on the "Packages/" folder and not on the "Assets/" folder.
+
+![Packages FOlder](image-2.png)
+
+You should see them there by default, but in case you dont, make sure you have "Show Hidden Packages" enabled. You can turn it on using the eye button on the top right corner of the project tab.
+
+![Show Hidden Packages Button](image-3.png)
+
 ### Requirements For Installation
+
 - All my assets are tested using latest unity and sdk versions supported by VRChat
  - Right now those versions are 2022.3.22f1 and 3.9.0
 - Most of my assets also require the latest version of my public libraries [ValenCommons](./category/valencommons/)
 
 ### Licensing Activation
+
 All my paid assets use a licensing system, when you get your asset from Jinxyy or Gumroad you get a **License Key** that you can use to activate the asset on Unity. To do so, go to:
 `valenvrc/LicenseManager` on the topbar.
 
@@ -35,15 +47,16 @@ Licenses get tied to the first VRChat account they are activated on. Licenses ar
 Jinxxy uses full license, not short one!
 :::
 
-
 ***
 
 ## Contributing
+
 This page is built with [Docusaurus](http://docusaurus.io/), if you want to contribute feel free to open a pull request at the [Github Repository](https://github.com/ElMoha943/valenvrc-docs), please follow the guideliness and test locally. We are actively searching for help localizing the docs to other languages!
 
 ## Support
+
 If you need help please reach out at my **[Discord Server](https://discord.gg/MyVeCdx6QE)**. Do not DM me or send me friend requests on discord or other social media asking for support.
 
-Support is not included. Any assistance provided is offered voluntarily, in good faith, and during free time. Any support given will be strictly about the asset itself and not unity, if you got unrelated errors that are preventing you from correctly using the assets I can't guarantee that I will be able to help. 
+Support is not included. Any assistance provided is offered voluntarily, in good faith, and during free time. Any support given will be strictly about the asset itself and not unity, if you got unrelated errors that are preventing you from correctly using the assets I can't guarantee that I will be able to help.
 
 Support is only given to verified customers that bought my assets, if you bought a prefab/world that utilizes my assets the creator you bought it from is the one in charge of assisting you.
