@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'ValenVRC Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Foxes are cool',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://ElMoha943.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/valenvrc-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -88,9 +88,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        /* {to: '/blog', label: '', position: 'left'}, */
         {
           href: 'https://github.com/ElMoha943/valenvrc-docs',
           label: 'GitHub',
@@ -138,10 +138,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
+            /* {
               label: 'Blog',
               to: '/blog',
-            },
+            }, */
             {
               label: 'GitHub',
               href: 'https://github.com/ElMoha943/valenvrc-docs',
@@ -149,7 +149,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ValenVRC. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
