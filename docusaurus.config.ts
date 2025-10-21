@@ -102,11 +102,15 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Stores',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Gumroad',
+              href: 'https://store.valenvrc.com',
+            },
+            {
+              label: 'Jinxxy',
+              href: 'https://jinxxy.com/valenvrc',
             },
           ],
         },
@@ -114,17 +118,21 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/MyVeCdx6QE',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/ValenVRC943',
             },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/valenn.vrc/',
+            },
+            {
+              label: 'Youtube',
+              href: 'https://www.youtube.com/@valenvrc',
+            }
           ],
         },
         {
