@@ -2,7 +2,7 @@
 sidebar_position: 0
 slug: /
 title: Welcome
-description: Bell for your bar/club world to let your security personal know that someone at the door
+description: This page contain the documentation for my assets and systems. This is a community mantained project.
 ---
 This page contain the documentation for my assets and systems. This is a community mantained project.
 
