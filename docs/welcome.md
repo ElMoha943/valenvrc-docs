@@ -15,7 +15,7 @@ Please note that the assets require a minimum understanding of Unity's editor an
 ### Requirements For Installation
 - All my assets are tested using latest unity and sdk versions supported by VRChat
  - Right now those versions are 2022.3.22f1 and 3.9.0
-- Most of my assets also require the latest version of my public libraries [ValenCommons](./valencommons/)
+- Most of my assets also require the latest version of my public libraries [ValenCommons](./category/valencommons/)
 
 ### Licensing Activation
 All my paid assets use a licensing system, when you get your asset from Jinxyy or Gumroad you get a **License Key** that you can use to activate the asset on Unity. To do so, go to:
