@@ -3,6 +3,8 @@ slug: bonk
 title: Bonk Stick
 description: Bat for bonking people and sending them to the horny jail!
 ---
+- Find the prefab on `Packages/valenvrc - Bibj/Runtime` and drag it to your scene.
+
 ### Settings
 
 - JailPoint : tranform - Point where bonked users will be teleported, if null users wont be teleported.
