@@ -7,6 +7,7 @@ description: Cool Gimmick to launch players on air to traverse your map!
 
 :::tip
 Make sure to enable the scene's **Gizmos** to preview the trajectory of the launchpad.
+:::
 
 ### Settings
 
