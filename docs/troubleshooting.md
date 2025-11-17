@@ -10,7 +10,7 @@ Here is a list of common problems and how to solve them.
 
 If you see something like
 `Object reference not set to an instance of an object`
-You have an empty/missing object somewhere on the config. Search for thigs saying **"None"** or **"Missing"** on your inspector and fill them.
+You have an empty/missing object somewhere on the config. Search for things saying **"None"** or **"Missing"** on your inspector and fill them.
 
 ![Missing Reference Example](image-4.png)
 
@@ -20,7 +20,7 @@ This is caused because the script needs a dependency that you are missing. Doubl
 
 ## Cannot Compile/Upgrade
 
-This error means that your new scripts cant be loaded due to an error that may not necesarily be from that asset you are importing, in this case you need to check your console to find the exact cause of the error.
+This error means that your new scripts cant be loaded due to an error that may not necessarily be from that asset you are importing, in this case you need to check your console to find the exact cause of the error.
 
 We only care about the Errors (red icon) not the warnings or messages, so its best to turn those off, hit clear and take a screenshot of the remaining messages. Always send a screenshot of your full console, even if you think something is not important (spoiler: it probably is).
 

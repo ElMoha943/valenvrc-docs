@@ -10,7 +10,7 @@ description: Bat for bonking people and sending them to the horny jail!
 - JailPoint : tranform - Point where bonked users will be teleported, if null users wont be teleported.
 - BonkSound : audioClip - Sound that plays when you successfully bonk another user.
 - MissSound : audioClip - Sound that plays when you miss (hit the air, no user in reach).
-- Distance : float - The max distnace a user can be from the "Hit Target" to be considered a successful hit.
+- Distance : float - The max distance a user can be from the "Hit Target" to be considered a successful hit.
 - Hit Effect : particleSystem : Optional particle system that plays on hit.
 - Hit Target : transform : The point from which the hit distance is calculated.
 

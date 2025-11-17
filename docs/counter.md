@@ -7,7 +7,7 @@ description: Easy to use Counter for your world!
 
 ### Settings
 
-- InstantIncremet : bool - Disables animation and instantly sets display to target value upon change.
+- InstantIncrement : bool - Disables animation and instantly sets display to target value upon change.
 - InputField : TextMeshProUGUI - Text of the input field to take the value from.
 - SevenSegParents : GameObject - Parent object of the individual digits, should not be changed.
 

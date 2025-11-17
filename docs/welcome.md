@@ -2,21 +2,21 @@
 sidebar_position: 0
 slug: /
 title: Welcome
-description: This page contain the documentation for my assets and systems. This is a community mantained project.
+description: This page contain the documentation for my assets and systems. This is a community maintained project.
 ---
-This page contain the documentation for my assets and systems. This is a community mantained project.
+This page contain the documentation for my assets and systems. This is a community maintained project.
 
 ## Common Steps
 
 To start with, here are some common steps and requirements of all my assets.
 
-### Knowloadge Requirements
+### Knowledge Requirements
 
 Please note that the assets require a minimum understanding of Unity's editor and UI for installation and modification.
 
 My assets are distributed as **Packages** therefore they are on the `"Packages/"` folder and not on the `"Assets/"` folder.
 
-![Packages FOlder](image-2.png)
+![Packages Folder](image-2.png)
 
 You should see them there by default, but in case you dont, make sure you have "Show Hidden Packages" enabled. You can turn it on using the eye button on the top right corner of the project tab.
 
@@ -27,7 +27,7 @@ Your prefabs are usually on the `"Runtime/"` folder.
 ### Requirements For Installation
 
 - All my assets are tested using latest unity and sdk versions supported by VRChat
-    - Right now those versions are 2022.3.22f1 and 3.9.0
+  - Right now those versions are 2022.3.22f1 and 3.9.0
 - Most of my assets also require the latest version of my public libraries [ValenCommons](./category/valencommons/)
 
 ### Updating from an old version
@@ -36,7 +36,7 @@ Your prefabs are usually on the `"Runtime/"` folder.
 If you are upgrading from a *really old version*, double check if you have a folder called "ValeStuff" on the Assets folder. If you do, remove the "Public Scripts" and "[ASSET NAME]" folders from it.
 :::
 
-When updating from an old version it is adviced to perform what I refer as a **Clean Install**:
+When updating from an old version it is advised to perform what I refer as a **Clean Install**:
 
 - **Make a backup of your config!**
 - Remove **the entire folder** of the package you are installing.
@@ -72,7 +72,7 @@ Jinxxy uses full license, not short one!
 
 ## Contributing
 
-This page is built with [Docusaurus](http://docusaurus.io/), if you want to contribute feel free to open a pull request at the [Github Repository](https://github.com/ElMoha943/valenvrc-docs), please follow the guideliness and test locally. We are actively searching for help localizing the docs to other languages!
+This page is built with [Docusaurus](http://docusaurus.io/), if you want to contribute feel free to open a pull request at the [Github Repository](https://github.com/ElMoha943/valenvrc-docs), please follow the guidelines and test locally. We are actively searching for help localizing the docs to other languages!
 
 ## Support
 

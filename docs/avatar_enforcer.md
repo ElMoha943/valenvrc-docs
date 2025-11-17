@@ -4,7 +4,7 @@ title: Avatar_Enforcer
 description: Control which avatar your players use in your map!
 ---
 - Find the prefab on `Packages/valenvrc - AvatarEnforcer/Runtime` and drag it to your scene.
-- Asign your avatar pedestal to the "Pedestal" setting.
+- Assign your avatar pedestal to the "Pedestal" setting.
 
 ### Settings
 
