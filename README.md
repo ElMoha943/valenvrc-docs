@@ -1,41 +1,34 @@
-# Website
+[![Deploy to GitHub Pages](https://github.com/ElMoha943/valenvrc-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/ElMoha943/valenvrc-docs/actions/workflows/deploy.yml)
+# ValenVRC Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the official documentation repository for ValenVRC assets and systems. This documentation covers installation guides, configuration options, API references, and troubleshooting for all ValenVRC products.
 
-## Installation
+This documentation site is built with [Docusaurus](https://docusaurus.io/) and its maintained by the community.
 
-```bash
-yarn
-```
+🌐 **Live Site:** [docs.valenvrc.com](https://docs.valenvrc.com)
 
-## Local Development
+**Jinxxy Store**: [jinxxy.com/valenvrc](https://jinxxy.com/valenvrc) |
+**Gumroad Store**: [store.valenvrc.com](https://store.valenvrc.com)
 
-```bash
-yarn start
-```
+## Available Languages
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- English (default)
+- Spanish (es)
 
-## Build
+## Contributing
 
-```bash
-yarn build
-```
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to learn how to:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- Edit existing documentation
+- Create and improve translations
+- Report issues or suggest improvements
 
-## Deployment
+## Support
 
-Using SSH:
+For questions about the documentation site itself, please open an issue on this repository.
 
-```bash
-USE_SSH=true yarn deploy
-```
+For product support, visit the [Discord Server](https://discord.gg/MyVeCdx6QE).
 
-Not using SSH:
+## License
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This documentation is open source and MIT licensed. See [LICENSE](LICENSE) for details.
