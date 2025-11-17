@@ -4,7 +4,7 @@ title: Términos de Servicio
 description: Estos términos aplican a todos mis assets y comisiones.
 ---
 :::danger
-Esta traduccion solo existe para accesibilidad, la version oficial y legalmente vinculante es la version en ingles que puede encontrarse [aquí]("https://docs.valenvrc.com/tos").
+Esta traduccion solo existe para accesibilidad, la version oficial y legalmente vinculante es la version en ingles que puede encontrarse **[aquí](https://docs.valenvrc.com/tos)**.
 :::
 
 ## Términos y Condiciones de Assets
