@@ -96,6 +96,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/privacy_policy',
+          label: 'Privacy Policy',
+          position: 'left',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -151,6 +156,10 @@ const config: Config = {
               label: 'Blog',
               to: '/blog',
             }, */
+            {
+              label: 'Portfolio',
+              href: 'https://valenvrc.com',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/ElMoha943/valenvrc-docs',
