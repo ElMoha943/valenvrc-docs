@@ -12,7 +12,7 @@ Si ves algo como
 `Object reference not set to an instance of an object`
 Tienes un objeto vacío/faltante en alguna parte de la configuración. Busca cosas que digan **"None"** o **"Missing"** en tu inspector y llénalas.
 
-![Missing Reference Example](image-4.png)
+![Missing Reference Example](/img/docs/troubleshooting/missing-reference-example.png)
 
 ## Cannot find definition for X are you missing a reference?
 
@@ -24,8 +24,8 @@ Este error significa que tus nuevos scripts no pueden cargarse debido a un error
 
 Solo nos importan los Errores (icono rojo) no las advertencias o mensajes, así que es mejor desactivar esos, presionar limpiar y tomar una captura de pantalla de los mensajes restantes. Siempre envía una captura de pantalla de tu consola completa, incluso si piensas que algo no es importante (spoiler: probablemente lo es).
 
-![Cannot Compile on Behaviour](image-5.png)
-![Cannot Compile on Console](image-6.png)
+![Cannot Compile on Behaviour](/img/docs/troubleshooting/compile-error-behaviour.png)
+![Cannot Compile on Console](/img/docs/troubleshooting/compile-error-console.png)
 
 ## Asset no funciona o tiene problemas de desincronización en la Versión Quest
 

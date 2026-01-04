@@ -20,11 +20,11 @@ Veuillez noter que les assets nécessitent une compréhension minimale de l'édi
 
 Mes assets sont distribués en tant que **Packages**, ils se trouvent donc dans le dossier `"Packages/"` et non dans le dossier `"Assets/"`.
 
-![Packages Folder](image-2.png)
+![Packages Folder](/img/docs/welcome/packages-folder.png)
 
 Vous devriez les voir là par défaut, mais si ce n'est pas le cas, assurez-vous que "Show Hidden Packages" est activé. Vous pouvez l'activer en utilisant le bouton en forme d'œil dans le coin supérieur droit de l'onglet projet.
 
-![Show Hidden Packages Button](image-3.png)
+![Show Hidden Packages Button](/img/docs/welcome/show-hidden-packages.png)
 
 Les prefabs se trouvent généralement dans le dossier `"Runtime/"`.
 
@@ -58,11 +58,11 @@ Mes assets utilisent le [Versionnage Sémantique](https://semver.org/) donc vous
 Tous mes assets payants utilisent un système de licences. Lorsque vous obtenez votre asset de Jinxyy ou Gumroad, vous obtenez une **Clé de Licence** que vous pouvez utiliser pour activer l'asset dans Unity. Pour ce faire, allez à :
 `valenvrc/LicenseManager` dans la barre supérieure.
 
-![topbar menu](image.png)
+![topbar menu](/img/docs/welcome/topbar-menu.png)
 
 Une fois que vous ouvrez le Gestionnaire de Licences, il vous sera demandé de vous connecter à votre Panneau de Contrôle VRChat si vous ne l'avez pas déjà fait. Ensuite, vous devriez voir le compte Unity/VRChat que vous utilisez suivi du menu pour activer votre licence. Vous devrez choisir une **Boutique** et un **Produit**, puis appuyer sur **Verify License**.
 
-![License Manager](image-1.png)
+![License Manager](/img/docs/welcome/license-manager.png)
 
 :::warning[]
 Les licences sont liées au premier compte VRChat sur lequel elles sont activées. Les licences ne sont pas transférables.
