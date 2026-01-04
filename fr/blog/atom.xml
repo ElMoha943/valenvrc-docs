@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.valenvrc.com/fr/blog</id>
+    <title>ValenVRC Docs Blog</title>
+    <updated>2019-05-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.valenvrc.com/fr/blog"/>
+    <subtitle>ValenVRC Docs Blog</subtitle>
+    <icon>https://docs.valenvrc.com/fr/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the Wiki]]></title>
+        <id>https://docs.valenvrc.com/fr/blog/welcome</id>
+        <link href="https://docs.valenvrc.com/fr/blog/welcome"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WIP]]></summary>
+        <content type="html"><![CDATA[<p>WIP</p>]]></content>
+        <author>
+            <name>ValenVRC</name>
+            <uri>https://valenvrc.com</uri>
+        </author>
+        <category label="Announcements" term="Announcements"/>
+    </entry>
+</feed>
