@@ -1,14 +1,14 @@
 ---
 slug: russian-roulette
 title: Russian Roulette
-description: Configurable chances, sounds and optional teleport.
+description: Probabilidades configurables, sonidos y teletransporte opcional.
 ---
-- Find the prefab on `Packages/valenvrc - Russian Roullette/Runtime` and drag it to your scene.
+- Encuentra el prefab en `Packages/valenvrc - Russian Roullette/Runtime` y arrástralo a tu escena.
 
 ### Settings
 
-- Chances : int - There will be 1 in X chances of shooting, default 6 for revolver, increasing this makes it less likely to shoot.
-- GunShot : AudioClip - Sound that plays when a shot happens.
-- EmptyShoot : AudioClip - Sound that plays when a shot doesnt happen.
-- ShouldTeleport : bool - If the player that is killed should be teleported.
-- TPPoint : transform - The point where the killed player will be teleported.
+- Chances : int - Habrá 1 en X probabilidades de disparar, por defecto 6 para revólver, aumentar esto hace menos probable disparar.
+- GunShot : AudioClip - Sonido que se reproduce cuando ocurre un disparo.
+- EmptyShoot : AudioClip - Sonido que se reproduce cuando no ocurre un disparo.
+- ShouldTeleport : bool - Si el jugador que es eliminado debe ser teletransportado.
+- TPPoint : transform - El punto donde el jugador eliminado será teletransportado.

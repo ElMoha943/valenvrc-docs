@@ -1,58 +1,58 @@
 ---
 sidebar_position: 100
 slug: /troubleshooting
-title: Troubleshooting
-description: Common problems and their fixes
+title: Solución de Problemas
+description: Problemas comunes y sus soluciones
 ---
-Here is a list of common problems and how to solve them.
+Aquí hay una lista de problemas comunes y cómo resolverlos.
 
-## Missing references
+## Referencias faltantes
 
-If you see something like
+Si ves algo como
 `Object reference not set to an instance of an object`
-You have an empty/missing object somewhere on the config. Search for things saying **"None"** or **"Missing"** on your inspector and fill them.
+Tienes un objeto vacío/faltante en alguna parte de la configuración. Busca cosas que digan **"None"** o **"Missing"** en tu inspector y llénalas.
 
 ![Missing Reference Example](image-4.png)
 
 ## Cannot find definition for X are you missing a reference?
 
-This is caused because the script needs a dependency that you are missing. Double check you are using the latest version of everything (including vrchat sdk and supported unity version). If you have the dependency installed it may be that you didn't correctly update your asset, do a clean install of both the asset and its dependencies.
+Esto es causado porque el script necesita una dependencia que te falta. Verifica dos veces que estés usando la última versión de todo (incluyendo vrchat sdk y la versión de unity soportada). Si tienes la dependencia instalada puede ser que no actualizaste correctamente tu asset, haz una instalación limpia tanto del asset como de sus dependencias.
 
-## Cannot Compile/Upgrade
+## No puede Compilar/Actualizar
 
-This error means that your new scripts cant be loaded due to an error that may not necessarily be from that asset you are importing, in this case you need to check your console to find the exact cause of the error.
+Este error significa que tus nuevos scripts no pueden cargarse debido a un error que puede no necesariamente ser de ese asset que estás importando, en este caso necesitas revisar tu consola para encontrar la causa exacta del error.
 
-We only care about the Errors (red icon) not the warnings or messages, so its best to turn those off, hit clear and take a screenshot of the remaining messages. Always send a screenshot of your full console, even if you think something is not important (spoiler: it probably is).
+Solo nos importan los Errores (icono rojo) no las advertencias o mensajes, así que es mejor desactivar esos, presionar limpiar y tomar una captura de pantalla de los mensajes restantes. Siempre envía una captura de pantalla de tu consola completa, incluso si piensas que algo no es importante (spoiler: probablemente lo es).
 
 ![Cannot Compile on Behaviour](image-5.png)
 ![Cannot Compile on Console](image-6.png)
 
-## Asset not working or having desync problems in Quest Version
+## Asset no funciona o tiene problemas de desincronización en la Versión Quest
 
-After double checking that the asset is indeed quest compatible and following any extra steps required for it, double check that the [Network Id](https://creators.vrchat.com/worlds/udon/networking/network-id-utility/) of the asset is the same in both the pc and quest version, its usually a good practice to have both versions on the same project and use tools like [Easy Quest Switch](https://github.com/vrchat-community/EasyQuestSwitch).
+Después de verificar dos veces que el asset es compatible con quest y seguir cualquier paso extra requerido para ello, verifica dos veces que el [Network Id](https://creators.vrchat.com/worlds/udon/networking/network-id-utility/) del asset es el mismo en la versión pc y quest, usualmente es una buena práctica tener ambas versiones en el mismo proyecto y usar herramientas como [Easy Quest Switch](https://github.com/vrchat-community/EasyQuestSwitch).
 
 :::tip
-I personally recommend not using the multibuild feature of the sdk and instead build each version manually since it seems to have a lot of bugs.
+Personalmente recomiendo no usar la función multibuild del sdk y en su lugar construir cada versión manualmente ya que parece tener muchos bugs.
 :::
 
-## Ingame Debugging
+## Depuración en el Juego
 
 :::info
-Vrchat recently announced new DebugUIs being worked on, this info may be outdated.
+Vrchat anunció recientemente nuevas DebugUIs en las que se está trabajando, esta información puede estar desactualizada.
 :::
 
-In Steam, navigate to VRChat and right click -> Properties; go to the "General" Tab and under Launch options, add the following in the text field:
+En Steam, navega a VRChat y haz clic derecho -> Propiedades; ve a la pestaña "General" y bajo Opciones de lanzamiento, agrega lo siguiente en el campo de texto:
 
-`--enable-udon-debug-logging` - Allows Console errors to be printed into your unity project's console.
+`--enable-udon-debug-logging` - Permite que los errores de consola se impriman en la consola de tu proyecto unity.
 
-`--enable-debug-gui` - Enables World Debug menu in VRChat
+`--enable-debug-gui` - Habilita el menú de depuración de mundo en VRChat
 
-Once you added the parameters open vrchat in **desktop mode** and input the following key combination:
+Una vez que agregaste los parámetros abre vrchat en **modo escritorio** e ingresa la siguiente combinación de teclas:
 `R Shift + ~ + 1 - 9`
--# we usually care about the Console, which is number 3.
+-# usualmente nos interesa la Consola, que es el número 3.
 
 :::note
-Note, this does not work with the numpad, only the keyboard numbers. The Debug menu only works if you're the world creator, or the world has debugging enabled in the upload settings.
+Nota, esto no funciona con el teclado numérico, solo con los números del teclado. El menú de depuración solo funciona si eres el creador del mundo, o el mundo tiene la depuración habilitada en la configuración de subida.
 :::
 
-**More info on debugging views**: https://creators.vrchat.com/worlds/udon/world-debug-views/
+**Más información sobre vistas de depuración**: https://creators.vrchat.com/worlds/udon/world-debug-views/

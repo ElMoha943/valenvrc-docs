@@ -1,16 +1,16 @@
 ---
 slug: counter
 title: Counter
-description: Easy to use Counter for your world!
+description: ¡Contador fácil de usar para tu mundo!
 ---
-- Find the prefab on `Packages/valenvrc - Counter/Runtime` and drag it to your scene.
+- Encuentra el prefab en `Packages/valenvrc - Counter/Runtime` y arrástralo a tu escena.
 
 ### Settings
 
-- InstantIncrement : bool - Disables animation and instantly sets display to target value upon change.
-- InputField : TextMeshProUGUI - Text of the input field to take the value from.
-- SevenSegParents : GameObject - Parent object of the individual digits, should not be changed.
+- InstantIncrement : bool - Deshabilita la animación y establece instantáneamente la visualización al valor objetivo al cambiar.
+- InputField : TextMeshProUGUI - Texto del campo de entrada desde el cual tomar el valor.
+- SevenSegParents : GameObject - Objeto padre de los dígitos individuales, no debería ser cambiado.
 
-### Changing amount of digits
+### Cambiar la cantidad de dígitos
 
-The script automatically detects the amount of digits and clamps its value to it, to change it simply go the "Digits" gameobject and add/remove more digits by copy/pasting.
+El script detecta automáticamente la cantidad de dígitos y limita su valor a ella, para cambiarlo simplemente ve al gameobject "Digits" y agrega/elimina más dígitos copiando/pegando.

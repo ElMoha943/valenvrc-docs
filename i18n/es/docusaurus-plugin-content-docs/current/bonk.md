@@ -1,23 +1,23 @@
 ---
 slug: bonk
 title: Bonk Stick
-description: Bat for bonking people and sending them to the horny jail!
+description: ¡Bate para golpear gente y enviarlos a la cárcel horny!
 ---
-- Find the prefab on `Packages/valenvrc - Bibj/Runtime` and drag it to your scene.
+- Encuentra el prefab en `Packages/valenvrc - Bibj/Runtime` y arrástralo a tu escena.
 
 ### Settings
 
-- JailPoint : tranform - Point where bonked users will be teleported, if null users wont be teleported.
-- BonkSound : audioClip - Sound that plays when you successfully bonk another user.
-- MissSound : audioClip - Sound that plays when you miss (hit the air, no user in reach).
-- Distance : float - The max distance a user can be from the "Hit Target" to be considered a successful hit.
-- Hit Effect : particleSystem : Optional particle system that plays on hit.
-- Hit Target : transform : The point from which the hit distance is calculated.
+- JailPoint : tranform - Punto donde los usuarios golpeados serán teletransportados, si es null los usuarios no serán teletransportados.
+- BonkSound : audioClip - Sonido que se reproduce cuando golpeas exitosamente a otro usuario.
+- MissSound : audioClip - Sonido que se reproduce cuando fallas (golpeas el aire, ningún usuario al alcance).
+- Distance : float - La distancia máxima que un usuario puede estar del "Hit Target" para ser considerado un golpe exitoso.
+- Hit Effect : particleSystem : Sistema de partículas opcional que se reproduce al golpear.
+- Hit Target : transform : El punto desde el cual se calcula la distancia del golpe.
 
-### Changing the model
+### Cambiar el modelo
 
-You can change the bat model to be whatever you want, just make sure that the **HitTarget** is correctly aligned with the tip of your new object and that it is a child of it, so it moves with it.
+Puedes cambiar el modelo del bate por lo que quieras, solo asegúrate de que el **HitTarget** esté correctamente alineado con la punta de tu nuevo objeto y que sea hijo de él, para que se mueva con él.
 
 :::note
-We use the **PickupInvoke** script from valencommons to detect when a player *uses* the pickup to send the event to the Bonk script.
+Usamos el script **PickupInvoke** de valencommons para detectar cuando un jugador *usa* el pickup para enviar el evento al script Bonk.
 :::

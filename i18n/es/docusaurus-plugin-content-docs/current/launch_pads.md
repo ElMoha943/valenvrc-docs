@@ -1,21 +1,21 @@
 ---
 slug: launch-pads
 title: Launch Pads
-description: Cool Gimmick to launch players on air to traverse your map!
+description: ¡Genial Truco para lanzar jugadores por el aire y recorrer tu mapa!
 ---
-- Find the prefab on `Packages/valenvrc - LaunchPad/Runtime` and drag it to your scene.
+- Encuentra el prefab en `Packages/valenvrc - LaunchPad/Runtime` y arrástralo a tu escena.
 
 :::tip
-Make sure to enable the scene's **Gizmos** to preview the trajectory of the launchpad.
+Asegúrate de habilitar los **Gizmos** de la escena para previsualizar la trayectoria del launchpad.
 :::
 
 ### Settings
 
-- TargetPoint : transform - Point where users will land.
-- ArcHeight : float - The max height of the launch arc.
-- LaunchDuration : float - Fly time in seconds, reduce to increase launch speed.
-- LaunchSound : AudioClip - Optional sound to play upon using the launchpad.
+- TargetPoint : transform - Punto donde los usuarios aterrizarán.
+- ArcHeight : float - La altura máxima del arco de lanzamiento.
+- LaunchDuration : float - Tiempo de vuelo en segundos, reduce para aumentar la velocidad de lanzamiento.
+- LaunchSound : AudioClip - Sonido opcional para reproducir al usar el launchpad.
 
 :::note
-Players are able to move in air so the trajectory or final land point may change if they do.
+Los jugadores pueden moverse en el aire por lo que la trayectoria o el punto de aterrizaje final pueden cambiar si lo hacen.
 :::

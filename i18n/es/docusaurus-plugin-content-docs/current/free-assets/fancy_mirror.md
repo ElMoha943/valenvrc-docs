@@ -1,13 +1,13 @@
 ---
 slug: fancy-mirror
 title: Fancy Mirror
-description: A simple drag and drop mirror with lots of features and visual effects!
+description: ¡Un espejo simple de arrastrar y soltar con muchas características y efectos visuales!
 ---
-- Find the prefab on `Packages/valenvrc - Mirror/Runtime` and drag it to your scene.
-- Resize the mirror from the "Mirrors" gameobject to fit your wall.
-- Resize the "Detection" gameobject to determine the area where the mirror gets automatically toggled.
-- Disable/Remove the mesh renderer on the "Detection" gameobject.
+- Encuentra el prefab en `Packages/valenvrc - Mirror/Runtime` y arrástralo a tu escena.
+- Redimensiona el espejo desde el gameobject "Mirrors" para que se ajuste a tu pared.
+- Redimensiona el gameobject "Detection" para determinar el área donde el espejo se activa automáticamente.
+- Deshabilita/Elimina el mesh renderer en el gameobject "Detection".
 
 :::warning
-Make sure that "Mirrors" stays off after you finish editing otherwise the trigger toggle will be inverted!
+Asegúrate de que "Mirrors" permanezca desactivado después de que termines de editar ¡o el toggle del trigger estará invertido!
 :::

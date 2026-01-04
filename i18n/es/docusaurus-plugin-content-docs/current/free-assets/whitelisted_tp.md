@@ -1,20 +1,20 @@
 ---
 slug: whitelisted-tp
 title: Whitelisted TP
-description: Simple drag and drop teleport with optional whitelist.
+description: Teletransporte simple de arrastrar y soltar con lista blanca opcional.
 ---
-- Find the prefab on `Packages/valenvrc - WhitelistedTP/Runtime` and drag it to your scene.
-- Move the "Destination" gameobject to the point where you want your player to be teleported.
-- Optionally turn on "Use Whitelist" and add the usernames of the people you want to be able to use the teleport button.
+- Encuentra el prefab en `Packages/valenvrc - WhitelistedTP/Runtime` y arrástralo a tu escena.
+- Mueve el gameobject "Destination" al punto donde quieres que tu jugador sea teletransportado.
+- Opcionalmente activa "Use Whitelist" y agrega los nombres de usuario de las personas que deseas que puedan usar el botón de teletransporte.
 
 :::tip
-You can attach the WhitelistedTP script to any gameobject to use custom buttons or teleport objects. Just make sure the object has a collider or the interaction wont work.
+Puedes adjuntar el script WhitelistedTP a cualquier gameobject para usar botones de teletransporte personalizados u objetos de teletransporte. Solo asegúrate de que el objeto tenga un collider o la interacción no funcionará.
 :::
 
 ### Settings
 
-- UseWhitelist : bool - If the teleport should check if the player is in the whitelist, is off it works as a normal teleport.
-- MasterBypass : bool - If true, the master of the instance can use the teleport even if not in the whitelist.
-- OwnerBypass : bool - If true, the person who opened the instance can use the teleport even if not in the whitelist.
-- Destination : transform - Point where the user will be teleported.
-- Whitelist : string[] - List of names that are on the whitelist.
+- UseWhitelist : bool - Si el teletransporte debe verificar si el jugador está en la lista blanca, si está desactivado funciona como un teletransporte normal.
+- MasterBypass : bool - Si es true, el master de la instancia puede usar el teletransporte incluso si no está en la lista blanca.
+- OwnerBypass : bool - Si es true, la persona que abrió la instancia puede usar el teletransporte incluso si no está en la lista blanca.
+- Destination : transform - Punto donde el usuario será teletransportado.
+- Whitelist : string[] - Lista de nombres que están en la lista blanca.

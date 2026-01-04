@@ -1,17 +1,17 @@
 ---
 slug: avatar-enforcer
 title: Avatar_Enforcer
-description: Control which avatar your players use in your map!
+description: ¡Controla qué avatar usan tus jugadores en tu mapa!
 ---
-- Find the prefab on `Packages/valenvrc - AvatarEnforcer/Runtime` and drag it to your scene.
-- Assign your avatar pedestal to the "Pedestal" setting.
+- Encuentra el prefab en `Packages/valenvrc - AvatarEnforcer/Runtime` y arrástralo a tu escena.
+- Asigna tu pedestal de avatar a la configuración "Pedestal".
 
 ### Settings
 
-- DebugMode : bool - Print additional messages on the console.
-- ChangeOnJoin : bool - If player avatar should be changed to target avatar upon joining the instance.
-- ChangeOnAvatarChange : bool - If player avatar should be changed to target avatar upon changing avatar.
-- ChangeOnEnable : bool - If player avatar should be changed to target avatar upon enabling this gameobject.
-- MasterBypass : bool - If true, the master of the instance will ignore the forced avatar.
-- Whitelist : string[] - List of usernames that will ignore the forced avatar.
-- Pedestal : VRCAvatarPedestal - Avatar to use as forced avatar.
+- DebugMode : bool - Imprime mensajes adicionales en la consola.
+- ChangeOnJoin : bool - Si el avatar del jugador debe cambiarse al avatar objetivo al unirse a la instancia.
+- ChangeOnAvatarChange : bool - Si el avatar del jugador debe cambiarse al avatar objetivo al cambiar de avatar.
+- ChangeOnEnable : bool - Si el avatar del jugador debe cambiarse al avatar objetivo al habilitar este gameobject.
+- MasterBypass : bool - Si es true, el master de la instancia ignorará el avatar forzado.
+- Whitelist : string[] - Lista de nombres de usuario que ignorarán el avatar forzado.
+- Pedestal : VRCAvatarPedestal - Avatar a usar como avatar forzado.

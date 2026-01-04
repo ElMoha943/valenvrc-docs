@@ -1,25 +1,25 @@
 ---
 slug: service-bell
 title: Service Bell
-description: Bell for your bar/club world to let your security personnel know that someone at the door
+description: Campana para tu mundo de bar/club para que tu personal de seguridad sepa que alguien está en la puerta
 ---
-- Find the prefab on `Packages/valenvrc - ServiceBell/Runtime` and drag it to your scene.
-- Enable the "NotificationRemote" for your Staff/Security role.
+- Encuentra el prefab en `Packages/valenvrc - ServiceBell/Runtime` y arrástralo a tu escena.
+- Habilita el "NotificationRemote" para tu rol de Staff/Seguridad.
 
 :::warning
-The service bell does not include a role management system, it was designed to work along third party systems like the **[BouncerSystem](./category/bouncersystem)** or **[SecurityKeypad](./category/security-keypad)**.
+La campana de servicio no incluye un sistema de gestión de roles, fue diseñada para trabajar junto con sistemas de terceros como el **[BouncerSystem](./category/bouncersystem)** o **[SecurityKeypad](./category/security-keypad)**.
 :::
 
 ### Settings
 
-- RingCooldown : float - Time in seconds between bell rings, global, shared by all users.
-- RingSound : AudioClip - Sound that will be played when the bell rangs.
+- RingCooldown : float - Tiempo en segundos entre sonidos de campana, global, compartido por todos los usuarios.
+- RingSound : AudioClip - Sonido que se reproducirá cuando suene la campana.
 
 ### References
 
-- LocalNotification : GameObject - The notification for the local user that rings the bell.
-- RemoteNotificaiton : GameObject - The notification for the remote users, usually staff.
+- LocalNotification : GameObject - La notificación para el usuario local que toca la campana.
+- RemoteNotificaiton : GameObject - La notificación para los usuarios remotos, usualmente el personal.
 
 :::tip
-You can edit the text and looks of the notifications inside each of these gameobjects.
+Puedes editar el texto y la apariencia de las notificaciones dentro de cada uno de estos gameobjects.
 :::
