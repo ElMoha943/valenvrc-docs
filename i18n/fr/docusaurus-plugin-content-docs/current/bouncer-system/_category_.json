@@ -1,0 +1,8 @@
+{
+  "label": "BouncerSystem",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Un panneau qui permet aux utilisateurs désignés de vérifier/dévérifier des personnes"
+  }
+}

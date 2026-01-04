@@ -1,0 +1,8 @@
+{
+  "label": "AlcoholSystem",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Créez des boissons personnalisées qui vous saoulent vous et vos amis ! Ne buvez pas trop ou vous pourriez avoir besoin de vomir !"
+  }
+}
