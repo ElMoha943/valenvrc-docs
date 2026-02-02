@@ -1,0 +1,8 @@
+{
+  "label": "DancerSystem",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Sistema para gestionar eventos de baile y participantes"
+  }
+}
