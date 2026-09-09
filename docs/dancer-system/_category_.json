@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "System for managing dance events and participants"
+    "description": "Manage dancer queues, staff access, and synchronized dance counters."
   }
 }

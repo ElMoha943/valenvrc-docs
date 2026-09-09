@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "A panel that allows designated users to verify/unverify people"
+    "description": "Assign Verified, VIP, and Security access with synchronized role controls."
   }
 }
