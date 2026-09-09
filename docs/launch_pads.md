@@ -26,4 +26,9 @@ Install [ValenCommons](./valencommons/install) first.
 | Launch Duration | Flight time; lower values produce a faster launch. |
 | Launch Sound | Optional local launch sound. |
 
-Enable Scene view gizmos to preview the calculated arc. Players retain air control, so their final landing point can differ.
+:::tip
+Enable Scene view gizmos to preview the calculated arc. 
+:::
+:::note
+Players retain air control, so their final landing point can differ.
+:::
