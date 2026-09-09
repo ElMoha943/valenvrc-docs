@@ -1,21 +1,29 @@
 ---
 slug: launch-pads
 title: Launch Pads
-description: Cool Gimmick to launch players on air to traverse your map!
+description: Launch the local player toward a target point.
 ---
-- Find the prefab on `Packages/valenvrc - LaunchPad/Runtime` and drag it to your scene.
 
-:::tip
-Make sure to enable the scene's **Gizmos** to preview the trajectory of the launchpad.
+:::info
+These docs were last updated for Launch Pads 1.0.1.
 :::
 
-### Settings
+## Requirements
 
-- TargetPoint : transform - Point where users will land.
-- ArcHeight : float - The max height of the launch arc.
-- LaunchDuration : float - Fly time in seconds, reduce to increase launch speed.
-- LaunchSound : AudioClip - Optional sound to play upon using the launchpad.
+Install [ValenCommons](./valencommons/install) first.
 
-:::note
-Players are able to move in air so the trajectory or final land point may change if they do.
-:::
+## Install
+
+1. Import the provided Launch Pads `.unitypackage` file.
+2. Locate `Packages/com.valenvrc.launchpads/Runtime/LaunchPad.prefab`.
+3. Drag the prefab into the scene.
+4. Move **Target Point** to the intended landing area.
+
+| Setting | Purpose |
+| --- | --- |
+| Target Point | Intended end of the launch. |
+| Arc Height | Maximum height added to the arc. |
+| Launch Duration | Flight time; lower values produce a faster launch. |
+| Launch Sound | Optional local launch sound. |
+
+Enable Scene view gizmos to preview the calculated arc. Players retain air control, so their final landing point can differ.
