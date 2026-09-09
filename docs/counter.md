@@ -1,16 +1,29 @@
 ---
 slug: counter
 title: Counter
-description: Easy to use Counter for your world!
+description: Display a synchronized non-negative value with seven-segment digits.
 ---
-- Find the prefab on `Packages/valenvrc - Counter/Runtime` and drag it to your scene.
 
-### Settings
+:::info
+These docs were last updated for Counter 1.1.0.
+:::
 
-- InstantIncrement : bool - Disables animation and instantly sets display to target value upon change.
-- InputField : TextMeshProUGUI - Text of the input field to take the value from.
-- SevenSegParents : GameObject - Parent object of the individual digits, should not be changed.
+## Requirements
 
-### Changing amount of digits
+Install [ValenCommons](./valencommons/install) first.
 
-The script automatically detects the amount of digits and clamps its value to it, to change it simply go the "Digits" gameobject and add/remove more digits by copy/pasting.
+## Install
+
+1. Import the provided Counter `.unitypackage` file.
+2. Locate `Packages/com.valenvrc.counter/Runtime/7SegCounter.prefab`.
+3. Drag the prefab into the scene.
+
+## Settings
+
+| Setting | Purpose |
+| --- | --- |
+| Instant Increment | Updates every digit immediately. When disabled, the display counts toward the target one step per frame. |
+| Input Field | `TMP_InputField` read by `UpdateValue()`. |
+| Seven Seg Parents | Parent containing the digit objects. |
+
+`UpdateValue()` clamps the synchronized value from zero to the largest value the available digits can show. Duplicate or remove digit children to change that range, then keep them in least-significant to most-significant order.
