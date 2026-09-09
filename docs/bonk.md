@@ -1,23 +1,33 @@
 ---
 slug: bonk
 title: Bonk Stick
-description: Bat for bonking people and sending them to the horny jail!
+description: Teleport a nearby player's head target with a pickup swing.
 ---
-- Find the prefab on `Packages/valenvrc - Bibj/Runtime` and drag it to your scene.
 
-### Settings
-
-- JailPoint : tranform - Point where bonked users will be teleported, if null users wont be teleported.
-- BonkSound : audioClip - Sound that plays when you successfully bonk another user.
-- MissSound : audioClip - Sound that plays when you miss (hit the air, no user in reach).
-- Distance : float - The max distance a user can be from the "Hit Target" to be considered a successful hit.
-- Hit Effect : particleSystem : Optional particle system that plays on hit.
-- Hit Target : transform : The point from which the hit distance is calculated.
-
-### Changing the model
-
-You can change the bat model to be whatever you want, just make sure that the **HitTarget** is correctly aligned with the tip of your new object and that it is a child of it, so it moves with it.
-
-:::note
-We use the **PickupInvoke** script from valencommons to detect when a player *uses* the pickup to send the event to the Bonk script.
+:::info
+These docs were last updated for Bonk 1.1.2.
 :::
+
+## Requirements
+
+Install [ValenCommons](./valencommons/install) first.
+
+## Install
+
+1. Import the provided Bonk `.unitypackage` file.
+2. Locate `Packages/com.valenvrc.bonk/Runtime/Bonk.prefab`.
+3. Drag the prefab into the scene.
+4. Move **Jail Point** to the destination for bonked users.
+
+## Settings
+
+| Setting | Purpose |
+| --- | --- |
+| Jail Point | Required teleport destination. |
+| Bonk Sound | Sound played for a registered hit. |
+| Miss Sound | Sound used by the swing check. |
+| Distance | Maximum distance between a player's head and **Hit Target**. |
+| Hit Effect | Optional particles played on a registered hit. |
+| Hit Target | Detection point at the end of the held model. |
+
+To replace the model, keep **Hit Target** aligned with its striking end and parented so it moves with the pickup. The included `PickupInvoke` sends pickup use to the Bonk component.
