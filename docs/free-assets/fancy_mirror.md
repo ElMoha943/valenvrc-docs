@@ -1,13 +1,19 @@
 ---
 slug: fancy-mirror
 title: Fancy Mirror
-description: A simple drag and drop mirror with lots of features and visual effects!
+description: Configure the free distance-activated mirror prefab.
 ---
-- Find the prefab on `Packages/valenvrc - Mirror/Runtime` and drag it to your scene.
-- Resize the mirror from the "Mirrors" gameobject to fit your wall.
-- Resize the "Detection" gameobject to determine the area where the mirror gets automatically toggled.
-- Disable/Remove the mesh renderer on the "Detection" gameobject.
+
+:::info
+These docs were last updated for Fancy Mirror 1.0.4.
+:::
+
+1. Add **Fancy Mirror** from the [Valen VPM listing](https://valenvrc.com/).
+2. Locate `Packages/com.valenvrc.mirror/Runtime/ValEasyMirror.prefab`.
+3. Drag the prefab into the scene.
+4. Resize the **Mirrors** object to fit the surface.
+5. Resize **Detection** to define the local activation area, then hide or remove its setup-only renderer.
 
 :::warning
-Make sure that "Mirrors" stays off after you finish editing otherwise the trigger toggle will be inverted!
+Leave **Mirrors** inactive before uploading. The detection trigger toggles that starting state.
 :::

@@ -1,14 +1,20 @@
 ---
 slug: russian-roulette
 title: Russian Roulette
-description: Configurable chances, sounds and optional teleport.
+description: Configure shot chance, sounds, and an optional teleport.
 ---
-- Find the prefab on `Packages/valenvrc - Russian Roullette/Runtime` and drag it to your scene.
 
-### Settings
+:::info
+These docs were last updated for Russian Roulette 1.2.1.
+:::
 
-- Chances : int - There will be 1 in X chances of shooting, default 6 for revolver, increasing this makes it less likely to shoot.
-- GunShot : AudioClip - Sound that plays when a shot happens.
-- EmptyShoot : AudioClip - Sound that plays when a shot doesnt happen.
-- ShouldTeleport : bool - If the player that is killed should be teleported.
-- TPPoint : transform - The point where the killed player will be teleported.
+1. Add **Russian Roulette** from the [Valen VPM listing](https://valenvrc.com/).
+2. Open `Packages/com.valenvrc.russian_roullette/Runtime` and drag the supplied roulette prefab into the scene.
+
+| Setting | Purpose |
+| --- | --- |
+| Chances | A value of `X` gives each use a 1-in-`X` shot chance. The revolver default is `6`. |
+| Gun Shot | Sound used when the shot fires. |
+| Empty Shoot | Sound used when it does not fire. |
+| Should Teleport | Teleports the affected local player after a shot. |
+| TP Point | Destination used when teleporting is enabled. |

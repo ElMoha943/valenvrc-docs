@@ -1,20 +1,24 @@
 ---
 slug: whitelisted-tp
 title: Whitelisted TP
-description: Simple drag and drop teleport with optional whitelist.
+description: Configure a free interaction or trigger teleport with an optional name list.
 ---
-- Find the prefab on `Packages/valenvrc - WhitelistedTP/Runtime` and drag it to your scene.
-- Move the "Destination" gameobject to the point where you want your player to be teleported.
-- Optionally turn on "Use Whitelist" and add the usernames of the people you want to be able to use the teleport button.
 
-:::tip
-You can attach the WhitelistedTP script to any gameobject to use custom buttons or teleport objects. Just make sure the object has a collider or the interaction wont work.
+:::info
+These docs were last updated for Whitelisted TP 1.3.0.
 :::
 
-### Settings
+1. Add **Whitelisted TP** from the [Valen VPM listing](https://valenvrc.com/).
+2. Locate `Packages/com.valenvrc.whitelistedtp/Runtime`.
+3. Choose `WhitelistedTP.prefab` for an interaction or `WhitelistedTPTrigger.prefab` for a trigger area.
+4. Move **Destination** to the target position.
 
-- UseWhitelist : bool - If the teleport should check if the player is in the whitelist, is off it works as a normal teleport.
-- MasterBypass : bool - If true, the master of the instance can use the teleport even if not in the whitelist.
-- OwnerBypass : bool - If true, the person who opened the instance can use the teleport even if not in the whitelist.
-- Destination : transform - Point where the user will be teleported.
-- Whitelist : string[] - List of names that are on the whitelist.
+| Setting | Purpose |
+| --- | --- |
+| Use Whitelist | Requires an allowed display name or enabled bypass. |
+| Whitelist | Exact, case-sensitive display names that may teleport. |
+| Master Bypass | Allows the current instance master. |
+| Owner Bypass | Allows the current network owner of the teleport GameObject. It does not check the instance owner. |
+| Destination | Position and rotation applied to the local player. |
+
+For a custom interaction, place `WhitelistedTP` on an object with a collider. For an area, use `WhitelistedTPTrigger` with a trigger collider.
