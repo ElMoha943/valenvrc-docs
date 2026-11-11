@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([["3431"],{9725(e){e.exports=JSON.parse('{"authors":[{"name":"ValenVRC","title":"The Wizard","url":"https://valenvrc.com","page":null,"socials":{"x":"https://x.com/ValenVRC943","github":"https://github.com/ElMoha943"},"imageURL":"https://github.com/valenvrc.png","key":"valenvrc","count":1}]}')}}]);
